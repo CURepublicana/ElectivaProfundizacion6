@@ -2,8 +2,9 @@
   "name": "electronbasic",
   "version": "1.0.0",
   "description": "Primer ejercicio de trabajo en electrón",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron ."
   },
   "keywords": [
     "primer",
