@@ -1,0 +1,22 @@
+{
+  "name": "electronbasic",
+  "version": "1.0.0",
+  "description": "Primer ejercicio de trabajo en electrón",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primer",
+    "ejercicio",
+    "ejemplo",
+    "javascript",
+    "electron",
+    "seo"
+  ],
+  "author": "Oscardo!",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}
