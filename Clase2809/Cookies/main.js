@@ -23,8 +23,9 @@ function createWindow () {
   })
 
   mainWindow.loadFile('index.html')
+//  mainWindow.loadURL('http://www.urepublicana.edu.co')
 
-  ses.cookies.remove('https://www.eltiempo.com', 'cookie1')
+  ses.cookies.remove('https://www.urepublicana.edu.co', 'cookie1')
     .then( () => {
       getCookies()
     })
@@ -41,7 +42,7 @@ function createWindow () {
   //   getCookies()
   // })
 
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed',  () => {
     mainWindow = null
