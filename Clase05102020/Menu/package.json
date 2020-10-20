@@ -4,7 +4,7 @@
   "description": "Curso",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron .", 
     "watch": "nodemon --exec electron ."
   },
   "keywords": [
@@ -15,7 +15,7 @@
   "author": "Oscardo",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^9.0.0",
+    "electron": "^9.3.2",
     "nodemon": "^2.0.0"
   },
   "dependencies": {

@@ -43,8 +43,8 @@ function createWindow () {
   // Administrar el estado de la nueva ventana
   state.manage(mainWindow)
 
-  // Open DevTools - PILAAAAAAAAS para la PRODUCCIÓN!
-  mainWindow.webContents.openDevTools();
+  // Open DevTools - PILAAAAAAAAS quitaaaaaaar para la PRODUCCIÓN!
+  //mainWindow.webContents.openDevTools();
 
   // Escuche como se cierra la ventana
   mainWindow.on('closed',  () => {

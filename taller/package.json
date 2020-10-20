@@ -1,0 +1,20 @@
+{
+  "name": "taller",
+  "version": "1.0.0",
+  "description": "primer ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "primer",
+    "ejercicio"
+  ],
+  "author": "Oscardo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.2",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {}
+}

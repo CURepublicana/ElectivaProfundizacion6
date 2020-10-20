@@ -1,0 +1,20 @@
+{
+  "name": "coursebasic",
+  "version": "1.0.0",
+  "description": "Primera versión ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Oscardo!",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-nightly": "^12.0.0-nightly.20200914"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "colors": "^1.4.0",
+    "node-gyp": "^7.1.0",
+    "watch": "^1.0.2"
+  }
+}

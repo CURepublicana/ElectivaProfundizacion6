@@ -4,7 +4,8 @@
   "description": "Primer ejercicio de trabajo en electrón",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+
+    
   },
   "keywords": [
     "primer",
