@@ -2,7 +2,7 @@
   "name": "master-electron",
   "version": "1.0.0",
   "description": "Código del Curso de ElectronJS",
-  "main": "main.js",
+  "main": "menu.js",
   "scripts": {
     "start": "electron .",
     "watch": "nodemon --exec electron .",
@@ -13,9 +13,9 @@
     "Electron"
   ],
   "author": "Oscardo",
-  "license": "CC0-1.0",
+  "license": "Oscardo Net",
   "devDependencies": {
-    "electron": "^9.0.0",
+    "electron": "^9.3.2",
     "nodemon": "^2.0.0"
   },
   "dependencies": {}
