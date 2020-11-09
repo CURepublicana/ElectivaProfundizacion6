@@ -6,16 +6,19 @@
     <title>Primer Programa</title>
     <style>
       html { font-family: sans-serif; background: #2B2E3B; color: #9FEAF9; }
+      a { color: white; }
     </style>
   </head>
   <body>
-
-    
 
     <button onclick="showSite()">Lanzar Electron.js Site</button><br>
     <button onclick="openSplash()">Abrir Splash.png</button><br>
     <button onclick="showSplashFile()">Mostrar Splash.png</button><br>
     <button onclick="deleteSplashFile()">Eliminar Imagen Splash.png</button><br>
+    
+    <h3><a href="#" onclick="nuevaVentana()">Nueva Ventana</a></h3>
+    <h3><a href="#" onclick="cerrarVentana()">Cerrar Ventana</a></h3>
+    <h3><a href="#" onclick="CambiarLetras()">Cambiar Ventana</a></h3>
 
     <script>
 
@@ -38,6 +41,18 @@
       const deleteSplashFile = e => {
         shell.moveItemToTrash(splashPath)
       }
+
+      let win
+     require('./renderer.js')
+      
+     const nuevaVentana = () => {
+        win = window.open('https://www.facebook.com', '_blank', 'width=500, height=450, alwaysOnTop=1');
+      }
+
+      const cerrarVentana = () => {
+        win.close();
+      }
+
 
     </script>
   </body>

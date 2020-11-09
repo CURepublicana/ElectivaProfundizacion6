@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, BrowserWindowProxy} = require('electron')
 
 // Mantenga una referencia global del objeto de la ventana, si no lo hace, la ventana
 // se cerrará automáticamente cuando el objeto de JavaScript sea basura recogida.
@@ -6,6 +6,8 @@ let mainWindow
 
 // Crear un nuevo BrowserWindow cuando `app` esté listo
 function createWindow () {
+
+  let recursoRemoto = BrowserWindowProxy;
 
   mainWindow = new BrowserWindow({
     width: 1000, height: 800,
@@ -17,6 +19,8 @@ function createWindow () {
 
   // Open DevTools - ¡Quítese para la PRODUCCIÓN!
   //mainWindow.webContents.openDevTools();
+  recursoRemoto.call('https://www.youtube.com/watch?v=OMD8hBsA-RI&list=RDOMD8hBsA-RI&start_radio=1')
+  
 
   // Escuche como se cierra la ventana
   mainWindow.on('closed',  () => {
